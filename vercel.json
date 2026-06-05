@@ -1,0 +1,12 @@
+﻿{
+  "functions": {
+    "api/optimize.py": {
+      "runtime": "python3.11",
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    { "source": "/api/optimize", "destination": "/api/optimize" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
