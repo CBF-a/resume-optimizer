@@ -1,0 +1,8 @@
+﻿{
+  "name": "ai-resume-optimizer",
+  "version": "1.0.0",
+  "description": "AI-powered resume optimization tool",
+  "scripts": {
+    "build": "echo 'Static build'"
+  }
+}
